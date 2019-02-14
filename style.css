@@ -92,3 +92,24 @@ hr {
 input, select {
     vertical-align:middle;
 }
+
+/* /////// End of CSS Reset ////// */
+
+
+.wrapper{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header{
+  background: #151515;
+}
+
+#logo{
+  background: url(images/logo.png) no-repeat;
+  height: 70px;
+  width: 280px;
+  float: left;
+  text-indent: -100000px;
+}
