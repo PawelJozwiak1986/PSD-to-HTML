@@ -106,10 +106,35 @@ header{
   background: #151515;
 }
 
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 #logo{
   background: url(images/logo.png) no-repeat;
   height: 70px;
   width: 280px;
   float: left;
   text-indent: -100000px;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+
+}
+
+header nav a{
+  color:#fff;
+  text-decoration: none;
+  font-family:Arial;
+}
+header nav h2 {
+  height: 0;
+  text-indent: -100000px;
+}
+header nav li{
+  float: left;
 }
