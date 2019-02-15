@@ -1,4 +1,4 @@
-html, body, div, span, object, iframe,
+  html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
 del, dfn, em, img, ins, kbd, q, samp,
@@ -123,7 +123,7 @@ header:after{
 header nav {
   float: right;
   margin-top: 30px;
-
+  margin-right: 10px;
 }
 
 header nav a{
@@ -131,10 +131,25 @@ header nav a{
   text-decoration: none;
   font-family:Arial;
 }
+
 header nav h2 {
   height: 0;
   text-indent: -100000px;
 }
+
 header nav li{
   float: left;
+  margin-left: 20px;
+}
+
+header nav span {
+  color: green;
+  margin-left:20px;
+}
+#lead__banner img { 
+  width: 100%;
+}
+#lead__banner{
+  max-height: 440px;
+  overflow: hidden;
 }
