@@ -261,3 +261,31 @@ section::after{
   padding-top: 50px;
   background: url(images/quote.png)no-repeat top left; 
 }
+#contact__methods {
+  float:left;
+}
+#contact__methods li{
+  list-style-type: none;
+  color: #888;
+  line-height: 30px;
+  clear: left;
+}
+#contact__methods li:before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right:10px;
+  background: url(images/logo-sprite.png) no-repeat;
+}
+
+#contact__methods li:nth-child(1):before {
+  background-position: -158px 0;
+}
+#contact__methods li:nth-child(2):before {
+  background-position: -200px 0;
+}
+#contact__methods li:nth-child(3):before {
+  background-position: -243px 0;
+}
