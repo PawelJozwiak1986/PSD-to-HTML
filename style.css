@@ -179,7 +179,7 @@ padding: 16px 0px;
 margin-top: 30px;
 text-decoration: none;
 border-radius: 5px;
-
+box-shadow: 1px 1px 6px rgba(0,0,0,4)
 }
 .banner__overlay{
   position: absolute;
@@ -190,4 +190,15 @@ border-radius: 5px;
   color: white;
   text-transform: uppercase;
   font-size: 72px;
+}
+section{
+  margin: 50px 0 60px;
+}
+section points-of-sale ul {
+
+    list-style-type: none;
+}
+#points-of-sale h2{ 
+  height:0 ;
+  text-indent: -100000px;
 }
